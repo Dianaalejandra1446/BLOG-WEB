@@ -1,0 +1,180 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="estilos.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MI BLOG:Formas de artes</title>
+    <link rel="shortcut icon" href="./imagenes/iconopagina.jpg" type="image/x-icon">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'> 
+</head>
+<body>
+    <section class="fondo_principal">
+        <header class="header">
+
+            <img class="logo" src="./imagenes/icono.jpg" alt="icono">
+            <h2 class="titulo">Candy Blog</h2>
+
+            <input type="checkbox" id="check">
+            <label for="check" class="icons">
+                <i class='bx bx-menu' id="menu-icon"></i>
+                <i class='bx bx-x' id="close-icon"></i>
+            </label>
+
+            <nav class="navbar">
+                <a href="#Inicio" style = "--i:0;">Inicio</a>
+
+                <a href="#Proposito del blog" style = "--i:1;">Sobre el blog</a>
+
+                <div class="contenedor-menu">
+                    <a id="blog" href="#temas" style= "--i:2;">Blog</a>
+                    <ul class="submenu">
+                        <li><a href="./redirecciones/ingresar.html">Ingresa</a></li>
+                        <li><a href="./redirecciones/japon.html">Japón</a></li>
+                        <li><a href="./redirecciones/tecnologia.html">Tecnología</a></li>
+                        <li><a href="./redirecciones/moda.html">Moda</a></li>
+                    </ul>
+                </div>
+                <input class="input" type="search" placeholder="Buscar...">
+            </nav>
+        </header>
+        <main>
+            <section class="seccion1">
+              <a name="Inicio"></a>
+                <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+                    <div class="carousel-inner">
+                      <div class="carousel-item active">
+                        <img src="./imagenes/carusel1.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/carusel2.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img id="carusel3" src="./imagenes/carusel3.jpg" class="d-block w-100" alt="...">
+                      </div>
+                      <div class="carousel-item">
+                        <img src="./imagenes/carusel4.jpg" class="d-block w-100" alt="...">
+                      </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+                      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+                      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                      <span class="visually-hidden">Next</span>
+                    </button>
+                  </div>
+                  <div class="inicio">
+                    <h1 class="neon">Inicio</h1>
+                    <p >¡Bienvenidos a un viaje fascinante hacia el futuro tecnológico y estético de Japón! En este blog, exploraremos la deliciosa fusión de lugares, comida, moda y estética japonesa, mientras nos sumergimos en las carreras tecnológicas que nos esperan. Prepárate para descubrir las últimas tendencias de moda que combinan el arte con la tecnología, creando un universo visualmente impactante. ¿Estás listo para explorar el lado vanguardista de la cultura japonesa y dejarte sorprender por su innovación? ¡Acompáñanos en este emocionante viaje hacia lo desconocido!</p>
+                  </div>
+                </section>
+                
+                <h1 id="temas">Temas:</h1>
+                  <section class="seccion2">
+                    <a name="temas"></a>
+
+                    <div class="tarjetas">
+                      <img src="./imagenes/ingresa.png" alt="Ingresar">
+                      <h1>Ingresar</h1>
+                        <p>Ingresa y recibe actualizaciones mensuales del blog!!!</p>
+                      <a href="./redirecciones/ingresar.html">Detalles</a>
+                    </div>
+
+                    <div class="tarjetas">
+                      <img src="./imagenes/tarjeta1.jpg" alt="Japan">
+                      <h1>Japan</h1>
+                      <p>Cultura,comida,arquitectura y mucho mas!!!</p>
+                      <a href="./redirecciones/japon.html">Detalles</a>
+                    </div>
+
+                    <div class="tarjetas">
+                      <img src="./imagenes/tarjeta3.jpg" alt="Tecnologia">
+                      <h1>Tecnologia</h1>
+                        <p>Exploraremos nuevas tecnologias y carreras del futuro que debes estudiar!!!</p>
+                      <a href="./redirecciones/tecnologia.html">Detalles</a>
+                    </div>
+
+                    <div class="tarjetas">
+                      <img src="./imagenes/tarjeta4.jpg" alt="">
+                      <h1>Moda</h1>
+                        <p>Exploraremos la en sus diferentes formas,aspectos en especial en japon modas de las cual casi nadie conoce</p>
+                      <a href="./redirecciones/moda.html">Detalles</a>
+                    </div>
+                  </section>
+
+                  <section class="seccion3">
+                    <img src="./imagenes/proposito.jpg" alt="">
+                    <div class="div1">
+                      
+                      <h2>Proposito del Blog</h2>
+                      <a name="Proposito del blog"></a>
+                      <p>El propósito de este blog es sumergirnos en la cultura japonesa desde una perspectiva única y vanguardista. Nuestro objetivo es explorar y compartir los lugares más fascinantes de Japón, desde sus tradicionales templos hasta sus modernos distritos tecnológicos. También nos adentraremos en el delicioso mundo de la comida japonesa, descubriendo sabores exquisitos y técnicas culinarias milenarias.
+                        <br><br>
+                        Además, estaremos al tanto de las últimas tendencias de moda y estética japonesa, explorando cómo el arte y la tecnología se fusionan para crear looks y diseños innovadores. No solo nos limitaremos a admirar estas tendencias, sino que también analizaremos cómo están cambiando la industria de la moda y cómo se están integrando con las carreras tecnológicas del futuro.
+                        <br><br>
+                        En este blog, te invitamos a unirte a nosotros en este fascinante viaje hacia el futuro estético y tecnológico de Japón, donde descubriremos cómo el arte y la tecnología convergen para crear una experiencia visualmente impactante. ¡Acompáñanos mientras exploramos y celebramos la creatividad y la innovación en la cultura japonesa!</p>
+                    </div>
+
+                    <div class="div2">
+                        <h3>Actualizaciones</h3>
+                        <p>Se subiran actualizaciones cada mes.</p> <br> 
+                        <p>Comenta un tema que te gustaria para mi blog</p>
+                        <form>
+                          <div class="form-group">
+                            <textarea class="form-control" rows="5"></textarea>
+                          </div>
+                          <button type="submit" class="btn btn-primary">Enviar comentario</button>
+                        </form>
+                    </div>
+                  </section>
+               
+                  <div class="galeria">
+                    <h1>Galeria:</h1>
+                  </div>
+            
+              
+                <div class="container">
+
+                  <div class="box">
+                    <img src="./imagenes/collage1.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage2.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage3.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage4.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage5.avif" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage6.jpg" alt="">
+                  </div>
+
+                  <div class="box">
+                    <img src="./imagenes/collage7.jpg" alt="">
+                  </div>
+
+                </div>
+              
+        </main>
+       <footer class="pie_pagina">
+          <img src="./imagenes/campuslands_logo.jpg" alt="Logo campus">
+          <p>&copy;2023 - Candy Blog made in:Campusland By:Diana Diaz</p>
+        </footer>
+    </section>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+</body>
+</html>
